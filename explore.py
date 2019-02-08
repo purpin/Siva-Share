@@ -12,7 +12,7 @@ from mlxtend.frequent_patterns import apriori
 start_time = time.time()
 
 print "Reading files..."
-excel_file = '../data/organic_world.csv'
+excel_file = 'retail.csv'
 # parts = dask.delayed(pd.read_excel)(excel_file, sheet_name=0)
 # df = dd.from_delayed(parts)
 
